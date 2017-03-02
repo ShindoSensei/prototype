@@ -9,6 +9,7 @@ Rails.application.routes.draw do
 
   resources :comments
   resources :articles
+  resources :users
   root 'welcome#index'     #Setting homepage e.g localhost:3000 to render welcome/index
 
 end
