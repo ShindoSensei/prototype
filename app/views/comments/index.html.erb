@@ -1,2 +1,7 @@
 <h1>Comments</h1>
+
+<% @comments.each do |comment| %>
+  <pre><%= comment.inspect %> </pre>
+<%end %>
+
 <p>Find me in app/views/comments/index.html.erb</p>
